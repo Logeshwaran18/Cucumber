@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="28.085587">
+<testcase classname="To validate login functionalty in a facebook" name="To validate login functionality with valid Username and Invalid Password" time="3.84284">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdefinition.Login.user_enter_Vusername_and_INpassword(Login.java:23)&#13;&#10;&#9;at ✽.user enter Vusername and INpassword(file:src/test/resources/FeatureFile/log.feature:6)&#13;&#10;"><![CDATA[Given user enter into facebook..............................................passed
+When user enter Vusername and INpassword....................................failed
+And user click login button.................................................skipped
+Then user should be in error page...........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdefinition.Login.user_enter_Vusername_and_INpassword(Login.java:23)
+	at ✽.user enter Vusername and INpassword(file:src/test/resources/FeatureFile/log.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="To validate login functionalty in a facebook" name="To validate login functionality with valid Username and valid Password" time="24.242747">
+<system-out><![CDATA[Given user enter into facebook..............................................passed
+When user enter Vusername and Vpassword.....................................passed
+And user click login button.................................................passed
+Then user should be in error page...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
